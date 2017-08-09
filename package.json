@@ -1,0 +1,24 @@
+{
+  "name": "ivaruyaaru",
+  "version": "1.0.0",
+  "description": "yarappa ivaru?",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acharyarajiv/IvaruYaaru.git"
+  },
+  "author": "raazuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acharyarajiv/IvaruYaaru/issues"
+  },
+  "homepage": "https://github.com/acharyarajiv/IvaruYaaru#readme"
+}
