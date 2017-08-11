@@ -1,0 +1,22 @@
+{
+  "name": "ivaru-yaaru-service",
+  "version": "1.0.0",
+  "description": "Backend service with mongo, node and express for ivaru yaaru app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acharyarajiv/ivaru-yaaru.git"
+  },
+  "author": "Raazuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acharyarajiv/ivaru-yaaru/issues"
+  },
+  "homepage": "https://github.com/acharyarajiv/ivaru-yaaru#readme",
+  "dependencies": {
+    "mongodb": "^2.2.31"
+  }
+}

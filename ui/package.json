@@ -1,0 +1,35 @@
+{
+  "name": "ivaru-yaaru-ui",
+  "version": "1.0.0",
+  "description": "UI service with react and webpack for ivaru yaaru app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acharyarajiv/ivaru-yaaru.git"
+  },
+  "author": "Raazuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acharyarajiv/ivaru-yaaru/issues"
+  },
+  "homepage": "https://github.com/acharyarajiv/ivaru-yaaru#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
+  }
+}
