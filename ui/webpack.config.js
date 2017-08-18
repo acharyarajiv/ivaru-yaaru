@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/js/index.js'),
+  entry: path.resolve(__dirname, 'src/js/index.jsx'),
   devServer: {
     inline: true,
     port: 3000
@@ -13,7 +13,9 @@ module.exports = {
     alias: {
       css: path.resolve(__dirname, 'src/css'),
       js: path.resolve(__dirname, 'src/js'),
-      image: path.resolve(__dirname, 'src/images')
+      image: path.resolve(__dirname, 'src/images'),
+      element: path.resolve(__dirname, 'src/js/element'),
+      constant: path.resolve(__dirname, 'src/js/constant')
     }
   },
   module: {
